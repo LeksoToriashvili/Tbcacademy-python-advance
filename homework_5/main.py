@@ -78,7 +78,7 @@ def create_author_table(conn):
             birth_date TEXT NOT NULL,
             birth_place TEXT NOT NULL)
         """
-    cur.execute(query)/home/lexo/Tbcacademy-python-advance/homework_5/venv/bin/python3
+    cur.execute(query)
 
     authors = tuple(
         (fake.unique.first_name(),
